@@ -9,6 +9,31 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Products DemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AD29C7F52CF0F7000037A95A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD29C8052CF0F7020037A95A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD29C80F2CF0F7020037A95A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
