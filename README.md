@@ -4,7 +4,9 @@
 Welcome to the **Products Demo App**! This application showcases a product listing and details page with features like pagination, dynamic UI updates, image carousel, and smooth navigation.
 
 
+
 ---
+
 
 
 ## Table of Contents
@@ -12,7 +14,6 @@ Welcome to the **Products Demo App**! This application showcases a product listi
 2. [Features](#features)
 3. [Instructions for Building and Running](#instructions-for-building-and-running)
 4. [Assumptions and Decisions](#assumptions-and-decisions)
-
 
 <br>
 <br>
@@ -23,7 +24,6 @@ The **Products Demo App** is a SwiftUI-based app showcasing modern programming p
 - **Architecture**: MVVM (Model-View-ViewModel) for separating concerns and enhancing testability.
 - **Concurrency**: Swift's **async/await** for handling network calls and state updates.
 - **Reusability**: Clean, modular components that can be reused across the app.
-
 
 <br>
 <br>
@@ -36,7 +36,6 @@ The **Products Demo App** is a SwiftUI-based app showcasing modern programming p
 - **Smooth Navigation**: Includes seamless navigation between screens with customized back button behavior.
 - **Image Loading with Caching**: Optimized image loading using a network manager with caching.
 - **Test Coverage**: Extensive unit tests for core functionalities.
- 
  
 <br>
 <br>
@@ -69,7 +68,6 @@ open ProductsDemo.xcodeproj
 5. Run tests (optional):
 > Use the shortcut Command + U or go to Product > Test to execute the test suite.
 
-
 <br>
 <br>
 
@@ -86,10 +84,9 @@ open ProductsDemo.xcodeproj
 - Dependency Injection: Injected dependencies (e.g., NetworkManager) to improve testability.
 
 
-
 ## Thank You!
 
-If you have any questions or suggestions regarding the BM Movies application, please feel free to contact the project maintainer:
+If you have any questions or suggestions regarding the **Products Demo App** application, please feel free to contact the project maintainer:
 - Email: alimohamed2019@gmail.com
 
 <br>
