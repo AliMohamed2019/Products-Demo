@@ -40,9 +40,9 @@ The **Products Demo App** is a SwiftUI-based app showcasing modern programming p
 
 ## Screenshots
 
-| Landing | Capture | Review |
-| --- | --- | --- |
-| <img src="/screenshots/2.PNG" height="400"> | <img src="/screenshots/3.PNG" height="400"> | <img src="/screenshots/4.PNG" height="400"> |
+| Product List | Category List | Product Details | Product Details (Dark Mode) |
+| --- | --- | --- | --- |
+| <img src="/screenshots/1.png" height="400"> | <img src="/screenshots/2.png" height="400"> | <img src="/screenshots/3.png" height="400"> | <img src="/screenshots/4.png" height="400"> |
 
 <br>
 
