@@ -43,6 +43,7 @@ struct ProductListCell: View {
                 RatingView(rating: product.rating)
                     .font(.caption)
             }
+            .padding(.vertical)
         }
     }
 }

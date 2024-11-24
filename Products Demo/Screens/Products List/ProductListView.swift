@@ -15,23 +15,23 @@ struct ProductListView: View {
             NavigationView {
                 VStack {
                     
-                    VStack(alignment: .leading, spacing: 10) {
+                    VStack(alignment: .leading, spacing: 12) {
                         FilterButtons(viewModel: viewModel)
                         
                         Divider()
                             .background(Color.primaryColor)
-                            .padding(.horizontal)
                         
                         Text("^[\(viewModel.products.count) result](inflect: true)")
                             .font(.subheadline)
-                            .padding(.leading)
                     }
+                    .padding()
                     
                     List(viewModel.products) { product in
                         NavigationLink(destination: ProductDetailsView(product: product)) {
                             ProductListCell(product: product)
-                                .padding(.bottom)
                         }
+                        .listRowBackground(Color.clear)
+                        .listRowInsets(EdgeInsets())
                         .onAppear {
                             Task {
                                 await viewModel.loadMoreProductsIfNeeded(currentProduct: product)
@@ -91,6 +91,5 @@ struct FilterButtons: View {
                         }
             }
         }
-        .padding(.leading)
     }
 }

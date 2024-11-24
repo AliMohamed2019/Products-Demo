@@ -4,18 +4,16 @@
 Welcome to the **Products Demo App**! This application showcases a product listing and details page with features like pagination, dynamic UI updates, image carousel, and smooth navigation.
 
 
-
 ---
-
 
 
 ## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
-3. [Instructions for Building and Running](#instructions-for-building-and-running)
-4. [Assumptions and Decisions](#assumptions-and-decisions)
+3. [Screenshots](#screenshots)
+4. [Instructions for Building and Running](#instructions-for-building-and-running)
+5. [Assumptions and Decisions](#assumptions-and-decisions)
 
-<br>
 <br>
 
 
@@ -25,7 +23,6 @@ The **Products Demo App** is a SwiftUI-based app showcasing modern programming p
 - **Concurrency**: Swift's **async/await** for handling network calls and state updates.
 - **Reusability**: Clean, modular components that can be reused across the app.
 
-<br>
 <br>
 
 
@@ -37,7 +34,16 @@ The **Products Demo App** is a SwiftUI-based app showcasing modern programming p
 - **Image Loading with Caching**: Optimized image loading using a network manager with caching.
 - **Test Coverage**: Extensive unit tests for core functionalities.
  
+ 
 <br>
+
+
+## Screenshots
+
+| Landing | Capture | Review |
+| --- | --- | --- |
+| <img src="/screenshots/2.PNG" height="400"> | <img src="/screenshots/3.PNG" height="400"> | <img src="/screenshots/4.PNG" height="400"> |
+
 <br>
 
 
@@ -69,7 +75,6 @@ open ProductsDemo.xcodeproj
 > Use the shortcut Command + U or go to Product > Test to execute the test suite.
 
 <br>
-<br>
 
 ## Assumptions and Decisions
 
@@ -89,5 +94,4 @@ open ProductsDemo.xcodeproj
 If you have any questions or suggestions regarding the **Products Demo App** application, please feel free to contact the project maintainer:
 - Email: alimohamed2019@gmail.com
 
-<br>
 <br>
