@@ -56,8 +56,8 @@ The **Products Demo App** is a SwiftUI-based app showcasing modern programming p
 ### Steps
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/products-demo-app.git
-cd Products\ Demo
+git clone https://github.com/AliMohamed2019/Products-Demo.git
+cd Products-Demo
 ```
 
 2. Open the project in Xcode:
